@@ -1,0 +1,20 @@
+h1 {
+    margin: 20px;
+    font: caption;
+    font-size: 30px;
+
+
+}
+
+.button-ok {
+    margin: 20px;
+    background-color: green;
+    font-size: larger;
+}
+
+.button-cancel {
+    background-color: red;
+    font-size: larger;
+    margin: 20px;
+
+}
