@@ -2,8 +2,12 @@ h1 {
     margin: 20px;
     font: caption;
     font-size: 30px;
+   
+}
 
-
+p{
+    margin: 20px;
+    font-size: 25px;
 }
 
 .button-ok {
@@ -16,5 +20,21 @@ h1 {
     background-color: red;
     font-size: larger;
     margin: 20px;
+
+}
+
+.button-reset {
+    margin: 20px;
+}
+.button-reset--hide {
+    display: none;
+}
+.button-reset--show {
+    display: inline-block;
+}
+
+.container {
+    margin: auto;
+    width: 40%;
 
 }

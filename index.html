@@ -1,13 +1,23 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="./fancystyles.css">
+<script src="./clickhandler.js"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <button class="button-ok">OK</button>
-    <button class="button-cancel">cancel</button>
-    <p>Do Something!</p>
+    <div class="container">
+        <h1>Hello World!</h1>
+
+        <button class="button-ok" onclick="veryGreat()">Yes</button>
+        <button class="button-cancel" onclick="notSoGreat()">No</button>
+        <button class="button-reset button-reset--hide" onclick="restart()">reset</button>
+
+        <p id="demo">
+            This is replacable.
+        </p>
+        
+    </div>
 
 </body>
 </html>
 
+    
